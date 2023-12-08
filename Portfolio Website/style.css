@@ -1,0 +1,143 @@
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            
+            .header {
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 20px 5%;
+                background: black;
+                display: flex;
+                justify-content: space-between;
+                z-index: 30;
+            }
+            
+            .navbar a {
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                margin-left: 30px;
+                transition: .3s;
+            }
+            
+            .navbar a:hover,
+            .navbar a.active {
+                color: rgb(6, 243, 6);
+            }
+            
+            .home {
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                background-color: rgb(0, 5, 5);
+            }
+            
+            .content {
+                color: white;
+                margin-left: 10ch;
+                white-space: nowrap;
+            }
+            
+            .content h1 {
+                font-size: 50px;
+                line-height: 2;
+                font-family: monospace;
+                letter-spacing: 4px;
+                overflow: hidden;
+                border-right: .15em solid #00abf0;
+                white-space: nowrap;
+                margin: 0 auto;
+                letter-spacing: .15em;
+                animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+            }
+            
+            @keyframes typing {
+                from {
+                    width: 0
+                }
+                to {
+                    width: 100%
+                }
+            }
+            
+            @keyframes blink-caret {
+                from,
+                to {
+                    border-color: transparent
+                }
+                50% {
+                    border-color: #00abf0;
+                }
+            }
+            
+            .content h3 {
+                font-size: 20px;
+                margin-top: 30px;
+            }
+            
+            .content p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            
+            .conticon a {
+                border-radius: 50%;
+                border: 2px solid #fff;
+                color: #fff;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                text-decoration: none;
+                font-size: 20px;
+                margin-right: 13px;
+            }
+            
+            .conticon {
+                margin: 25px 0 40px;
+            }
+            
+            .image {
+                width: 45%;
+                height: 80%;
+                position: absolute;
+                bottom: 0;
+                right: 100px;
+            }
+            
+            .image img {
+                display: block;
+                height: 100%;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 50%;
+                border: 5px solid transparent;
+                box-shadow: 0 0 0 5px #fff;
+                transform: translateX(-50%);
+                transform: bottom 1s, left 1s;
+            }
+            
+            .image:hover .Profile {
+                left: 45%;
+            }
+            
+            .btn {
+                box-shadow: 0 0 10px #00abf0;
+                background-color: aqua;
+                padding: 16px 40px;
+                position: relative;
+                letter-spacing: 1px;
+                text-decoration: none;
+                border-radius: 40px;
+                color: #fff;
+                border-color: aqua;
+                font-size: large;
+            }
