@@ -7,9 +7,8 @@
    IDE : VS code
 
 2. Netflix Homepage:
-   Creating a dynamic Netflix homepage with personalized content recommendations, genre categories, and a search bar.It is the main landing page of the streaming service, featuring a dynamic interface with personalized content 
-   recommendations, genre categories, and a search bar. It serves as the gateway for users to explore and access a vast library of movies, TV shows, and original content available for streaming. The homepage often highlights featured 
-   releases and popular titles, providing an engaging and user-friendly experience for subscribers. 
+   In this project, a basic, non-functional web page is designed to emulate the visual layout of the Netflix homepage. The static page encompasses a header, prominent features, frequently asked questions (FAQs), contact details, and an 
+   email subscription form. It's important to note that this replication is simplified and lacks functional elements such as user authentication or streaming capabilities.
 
    Languages : HTML / CSS
    IDE : VS code
